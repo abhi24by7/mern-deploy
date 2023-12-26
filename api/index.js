@@ -8,7 +8,7 @@ app.use(cors());
 
 
 app.get('/api/test', (req, res)=>{
-    res.json(body='hello world'+Date.now());
+    res.json(body='hello world2'+Date.now());
 });
 
 if(process.env.API_PORT){
